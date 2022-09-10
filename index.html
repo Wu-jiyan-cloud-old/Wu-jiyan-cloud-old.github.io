@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>基岩·云储存已更换域名</title>
+    <link rel="shortcut icon" href="/favicon.ico" sizes="64x64">
+    <style>
+        .container {
+            width: 60%;
+            margin: 10% auto 0;
+            background-color: #f0f0f0;
+            padding: 2% 5%;
+            border-radius: 10px
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+            ul li {
+                line-height: 2.3
+            }
+
+        a {
+            color: #20a53a
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>基岩·云储存已更换域名</h1>
+        <h3>这是老域名，本页面为跳转提示页</h3>
+        <ul>
+            <li>如果不执行任何操作，将在3秒后跳转至新域名</li>
+            <li>请牢记基岩·云储存新域名：<a href="https://www.bedrockdrive.tk/">https://www.bedrockdrive.tk/</a></li>
+            <li>如果以前的分享无法访问，请把域名中的"wujiyan"换成"bedrockdrive"，其它不动</li>
+            <li>感谢您的配合！</li>
+	<script language="JavaScript1.2" type="text/javascript">
+	function delayURL(url) {
+	var delay=document.getElementById("time").innerHTML;
+	//最后的innerHTML不能丢，否则delay为一个对象
+	if(delay>0){
+	delay--;
+	document.getElementById("time").innerHTML=delay;
+	}else{
+	window.top.location.href=url;
+	}
+	setTimeout("delayURL('" + url + "')", 1000);
+	//此处1000毫秒即每一秒跳转一次
+	}
+	</script>
+	<span id="time">4</span>
+	秒钟之后自动跳转，如果不跳转，请点击下面链接
+	<a href="https://www.bedrockdrive.tk/">https://www.bedrockdrive.tk/</a>
+	<script type="text/javascript">
+	delayURL("https://www.bedrockdrive.tk/");
+</script>
+        </ul>
+    </div>
+</body>
+</html>
